@@ -15,7 +15,7 @@ cookbook_path ["#{current_dir}/../cookbooks"]
 # :openstack_tenant   -> your tenant ID
 
 driver 'fog:OpenStack'
-driver_options :compute_options => { :openstack_auth_url => 'http://209.198.135.119:5000/v2.0/tokens',
+driver_options :compute_options => { :openstack_auth_url => 'http://SOMECLOUD:5000/v2.0/tokens',
                                      :openstack_username => 'admin',
-                                     :openstack_api_key  => 'tGNhcEWaRzsGy2QgWhURWzcnTwterg4wacyKkfAsK',
+                                     :openstack_api_key  => 'tGNhcEWaRzsGy2THISISFAKEzcnTwterg4wacyKkfAsK',
                                      :openstack_tenant   => 'admin' }
