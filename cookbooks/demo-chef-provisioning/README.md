@@ -1,4 +1,5 @@
 # demo-chef-provisioning
 
-TODO: Enter the cookbook description here.
+This is a demo cookbook to install a couple random things.
 
+I'll repeat: THIS IS A DEMO COOKBOOK.

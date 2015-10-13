@@ -4,7 +4,6 @@
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.
 
-
 case node[:platform]
 when 'redhat', 'centos'
 
