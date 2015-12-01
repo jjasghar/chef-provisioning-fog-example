@@ -21,20 +21,3 @@ machine_batch 'dev' do
     end
   end
 end
-
-machine 'qa-webserver' do
-  tag 'qabox'
-  machine_options({
-                    bootstrap_options: {
-                      :flavor_ref  => 3,
-                      :nics => [{ :net_id => '8fc162c0-311e-4006-ba81-89afddb9db6c'}],
-                      :key_name => 'jdizzle',
-                      :image_ref => '28070300-8b4a-4568-837a-dc48d96d5d50',
-                      :floating_ip_pool => 'ext-net'
-                    },
-                    :ssh_username => 'centos'
-                  })
-  recipe 'demo-chef-provisioning::default'
-  # role 'some_awesome_role' etc
-  converge true
-end

@@ -8,7 +8,7 @@ This is an example repo to leverage [chef-provisioning-fog](https://github.com/c
 
 1. Copy/download whatever you want in the `cookbooks/` directory. (there is an example cookbook already there)
 1. Edit the [.chef/knife.rb](.chef/knife.rb) for your settings. Including the recipes that you want to run.
-1. Run `chef-client -z demo.rb` or if you've renamed the file that file name.
+1. Run `chef-client -z <openstack|digital_ocean>.rb` or if you've renamed the file that file name.
 1. When you're done, you can use the `chef-client -z destroy.rb` to blow everything away.
 1. Edit/save this for what you want, this should be enough to bootstrap you now :D.
 
